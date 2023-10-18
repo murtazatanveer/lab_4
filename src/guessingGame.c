@@ -23,6 +23,10 @@ int main(int argc, char **argv) {
   // the user will try to guess what this number is
   int number = (rand() % n) + 1;
   
+
+  /*Made by : Murtaza Tanveer
+    Reg no : SP23-BSE-096*/
+    
   printf("\nMade By : Murtaza Tanveer\nReg no : SP23-BSE-096-2C\n\n");
 
   printf("Guess-A-Number Game!\n\n");
@@ -42,15 +46,11 @@ while(1){
   }
 
   else{
-    Printf("\nINCORRECT Guess! Try Again");
-    continue;
+    printf("\nINCORRECT Guess! Try Again");
+    
   }
 
 }
 
-
-
-
- 
   return 0;
 }
