@@ -16,12 +16,22 @@ int main(int argc, char **argv) {
   }
 
   int n = atoi(argv[1]);
+
   if(n <= 0) {
     printf("empty table!\n");
     exit(0);
   }
+else{
 
-  //TODO: place your code here
+// MADE BY : MURTAZA TANVEER
+	// DATE : 10/08/2023
+	// REG NO : SP23-BSE-096-2C
+
+  
+
+
+}
+
 
   return 0;
 }
