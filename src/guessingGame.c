@@ -32,10 +32,13 @@ int main(int argc, char **argv) {
 
 while(1){
 
-  printf("Enter a number between 1 and %d : ", n);
+  printf("\n\nEnter a number between 1 and %d : ", n);
   
-  scanf("%d",guess);
+  scanf("%d",&guess);
   
+  if(guess==number){
+     printf("\n\nCongratulations, you found it!  Number of guesses: %d\n",);
+  }
 
   
 
@@ -44,6 +47,6 @@ while(1){
 
 
 
-  printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
+ 
   return 0;
 }
