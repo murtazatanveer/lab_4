@@ -41,7 +41,10 @@ while(1){
      break;
   }
 
-  
+  else{
+    Printf("\nINCORRECT Guess! Try Again");
+    continue;
+  }
 
 }
 
