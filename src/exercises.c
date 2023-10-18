@@ -151,6 +151,14 @@ printf("sum of even numbers 1 thru %d is %d\n\n",n,s3);
     printf("Foo ( %d ) \n\n"a);
   }
 
+else if(a%11==0){
+    printf("Bar ( %d ) \n\n"a);
+  }
+
+ else if((a%7==0) && (a%11==0)){
+    printf("FooBar ( %d ) \n\n"a);
+  }
+
   }
 
   return 0;
