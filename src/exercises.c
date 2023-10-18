@@ -101,13 +101,21 @@ for(a=1;a<=n;a++){
   s1=s1+a;
   
 }
-printf("sum of 1 thru %d = %d",n,s1);
-
+printf("sum of 1 thru %d = %d\n\n",n,s1);
 
 
 
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
+
+int s2=0;
+
+for(a=1;a<=n;a++){
+
+  
+}
+
+
 
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
