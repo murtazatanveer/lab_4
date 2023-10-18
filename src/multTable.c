@@ -27,7 +27,7 @@ else{
 	// DATE : 10/08/2023
 	// REG NO : SP23-BSE-096-2C
 
-  
+  printf("____________MULTIPLICATION TABLE____________\n\n\n");
 
 
 }
