@@ -118,7 +118,7 @@ s2=s2+w;
 
 }
 
-printf("sum of squares of numbers from 1 to %d is %d\n\n",n,a);
+printf("sum of squares of numbers from 1 to %d is %d\n\n",n,s2);
 
 
   //7. Compute the summation of even numbers 1 thru n and print
