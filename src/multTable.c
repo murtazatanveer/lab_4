@@ -53,10 +53,12 @@ else{
 	   printf("%d\t",m);
 
 }
-
+ printf("\n\n");
    }
 
+}
 
-   
+
+
   return 0;
 }
