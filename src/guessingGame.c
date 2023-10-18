@@ -37,7 +37,8 @@ while(1){
   scanf("%d",&guess);
   
   if(guess==number){
-     printf("\n\nCongratulations, you found it!  Number of guesses: %d\n",);
+     printf("\n\nCongratulations, you found it!  Number of guesses: %d\n",number);
+     break;
   }
 
   
