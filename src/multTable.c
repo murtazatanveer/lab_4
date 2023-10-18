@@ -29,6 +29,11 @@ else{
 
   printf("____________MULTIPLICATION TABLE____________\n\n\n");
 
+  int num;
+   printf("Enter Number To Print Tables Below that Number : ");
+   scanf("%d",&num);
+   printf("\n\n-- ");
+
 
 }
 
