@@ -144,5 +144,14 @@ printf("sum of even numbers 1 thru %d is %d\n\n",n,s3);
   //   the integer is divisible by both 7 and 11, print "FooBar"
   //   instead.
 
+
+  for(a=1;a<=n;a++){
+  
+  if(a%7==0){
+    printf("Foo ( %d ) \n\n"a);
+  }
+
+  }
+
   return 0;
 }
