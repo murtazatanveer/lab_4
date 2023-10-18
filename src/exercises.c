@@ -67,6 +67,16 @@ printf("%d  ", k);
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
+  
+int a;
+for(a=1;a<=n;a++){
+
+
+}
+
+
+
+
 
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
