@@ -8,7 +8,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-  
+int main(int argc, char **argv) {
+
+ if(argc != 2) {
+    printf("Error: provide an integer\n");
+    exit(1);
+  }
 
   int n = atoi(argv[1]);
 
@@ -22,27 +27,27 @@ else{
 	// DATE : 10/08/2023
 	// REG NO : SP23-BSE-096-2C
 
-  printf("____________MULTIPLICATION TABLE____________\n\n\n");
+  printf("\n____________MULTIPLICATION TABLE____________\n\n\n");
 
-  int num;
-   printf("Enter Number To Print Tables Below that Number : ");
-   scanf("%d",&num);
+   printf("MADE BY : MURTAZA TANVEER\n\nREG NO  : SP23-BSE-096-2C\n\n\n");
+
+
    printf("\n\n-- ");
 
    int m;
    int x=1;
    int y=1;
 
-   for(int r=1;r<=num;r++){
+   for(int r=1;r<=n;r++){
    	printf("%d\t",r);
    }
 
    printf("\n\n");
 
-   for(int i=1;i<=num;i++){
+   for(int i=1;i<=n;i++){
    	printf("%d  ",x);
    	x++;
-   	  for(int j=1;j<=num;j++){
+   	  for(int j=1;j<=n;j++){
 
      m=i*j;
 	   printf("%d\t",m);
