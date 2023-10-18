@@ -94,11 +94,14 @@ printf("\n\n");
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
 
-int s1;
+int s1=0;
 
 for(a=1;a<=n;a++){
+
+  s1=s1+a;
   
 }
+printf("sum of 1 thru %d = %d",n,s1);
 
 
 
