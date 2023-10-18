@@ -159,8 +159,9 @@ else if(a%11==0){
  else if((a%7==0) && (a%11==0)){
     printf("FooBar ( %d ) \n\n"a);
   }
+  
   else{
-    printf("integers ")
+    printf("integers, not divisible by 7 or 11 or both",a);
   }
 
   }
