@@ -30,9 +30,12 @@ int main(int argc, char **argv) {
   int guess;
 
 
-while(number!=guess){
+while(1){
 
   printf("Enter a number between 1 and %d : ", n);
+  
+  scanf("%d",guess);
+  
 
   
 
