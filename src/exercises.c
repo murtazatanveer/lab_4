@@ -58,7 +58,8 @@ i=i+3;
 
 for(int k=3;k>-4;k--){
 
-  
+printf("%d  ", k);
+
 }
 
 
