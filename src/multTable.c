@@ -38,6 +38,12 @@ else{
    int x=1;
    int y=1;
 
+   for(int r=1;r<=num;r++){
+   	printf("%d\t",r);
+   }
+
+   
+
 
 }
 
