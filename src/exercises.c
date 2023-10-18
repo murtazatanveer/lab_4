@@ -32,6 +32,10 @@ int main(int argc, char **argv) {
   }
   printf("\n");
 
+  // After Rewriting
+
+  
+
   //2. Rewrite the given while loop as an equivalent for loop
   int k = 3;
   while(k > -4) {
