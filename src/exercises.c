@@ -124,7 +124,7 @@ printf("sum of squares of numbers from 1 to %d is %d\n\n",n,s2);
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
 
-int s3;
+int s3=0;
 
 for(a=1;a<=n;a++){
 
@@ -134,7 +134,7 @@ if(a%2==0){
 
 }
 
-printf("sum of even numbers 1 thru %d is %d")
+printf("sum of even numbers 1 thru %d is %d\n\n",n,s3);
 
 
   //8. Write a solution to the following variation of the FizzBuzz
