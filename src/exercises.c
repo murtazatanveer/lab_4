@@ -37,12 +37,14 @@ printf("\n\n");
   }*/
 
   // After Rewriting
+
 i=10;
   while(i<20){
 printf("%d , ",i);
 i=i+3;
   }
 
+  printf("\n\n");
   
 
   //2. Rewrite the given while loop as an equivalent for loop
