@@ -43,15 +43,20 @@ else{
    }
 
    printf("\n\n");
-   
+
    for(int i=1;i<=num;i++){
    	printf("%d  ",x);
    	x++;
    	  for(int j=1;j<=num;j++){
 
+     m=i*j;
+	   printf("%d\t",m);
 
 }
 
+   }
 
+
+   
   return 0;
 }
