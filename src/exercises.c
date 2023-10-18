@@ -45,15 +45,24 @@ i=i+3;
   }
 
   printf("\n\n");
-  
+
 
   //2. Rewrite the given while loop as an equivalent for loop
-  int k = 3;
+  /*int k = 3;
   while(k > -4) {
     printf("%d ", k);
     k--;
-  }
-  printf("\n");
+  }*/
+
+// After Rewriting
+
+for(int k=3;k>-4;k--){
+
+  
+}
+
+
+  printf("\n\n");
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
