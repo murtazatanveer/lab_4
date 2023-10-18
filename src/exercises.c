@@ -85,7 +85,7 @@ printf("\n\n");
 
   for(a=1;a<=n;a++){
 
-printf("%d, "a*a);
+printf("%d, ",a*a);
   }
 
 printf("\n\n");
