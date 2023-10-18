@@ -42,7 +42,12 @@ else{
    	printf("%d\t",r);
    }
 
+   printf("\n\n");
    
+   for(int i=1;i<=num;i++){
+   	printf("%d  ",x);
+   	x++;
+   	  for(int j=1;j<=num;j++){
 
 
 }
