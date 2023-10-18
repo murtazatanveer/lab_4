@@ -149,19 +149,19 @@ printf("sum of even numbers 1 thru %d is %d\n\n",n,s3);
   
   
   if(a%7==0){
-    printf("Foo ( %d ) \n\n"a);
+    printf("Foo ( %d ) \n\n",a);
   }
 
 else if(a%11==0){
-    printf("Bar ( %d ) \n\n"a);
+    printf("Bar ( %d ) \n\n",a);
   }
 
  else if((a%7==0) && (a%11==0)){
-    printf("FooBar ( %d ) \n\n"a);
+    printf("FooBar ( %d ) \n\n",a);
   }
-  
+
   else{
-    printf("integers, not divisible by 7 or 11 or both",a);
+    printf("integers, not divisible by 7 or 11 or both are %d , ",a);
   }
 
   }
