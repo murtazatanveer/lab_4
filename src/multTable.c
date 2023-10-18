@@ -34,6 +34,10 @@ else{
    scanf("%d",&num);
    printf("\n\n-- ");
 
+   int m;
+   int x=1;
+   int y=1;
+
 
 }
 
