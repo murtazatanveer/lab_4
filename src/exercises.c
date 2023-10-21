@@ -71,6 +71,13 @@ printf("%d  ", k);
 int a;
 for(a=1;a<=n;a++){
 
+if(a==n){
+
+printf("%d",a);
+break;
+
+}
+
 printf("%d, ",a);
 
 }
@@ -84,6 +91,13 @@ printf("\n\n");
 
 
   for(a=1;a<=n;a++){
+
+    if(a==n){
+
+printf("%d",a*a);
+break;
+
+}
 
 printf("%d, ",a*a);
   }
