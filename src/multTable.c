@@ -34,9 +34,8 @@ else{
 
    printf("\n\n-- ");
 
-   int m;
+   int multiply;
    int x=1;
-   int y=1;
 
    for(int r=1;r<=n;r++){
    	printf("%d\t",r);
@@ -49,8 +48,8 @@ else{
    	x++;
    	  for(int j=1;j<=n;j++){
 
-     m=i*j;
-	   printf("%d\t",m);
+     multiply=i*j;
+	   printf("%d\t",multiply);
 
 }
  printf("\n\n");
