@@ -33,21 +33,37 @@ int main(int argc, char **argv) {
 
   int guess;
 
+  int guess_counter=0;
+
 
 while(1){
 
   printf("\n\nEnter a number between 1 and %d : ", n);
   
   scanf("%d",&guess);
-  
+
+guess_counter++;
+
   if(guess==number){
-     printf("\n\nCongratulations, you found it!  Number of guesses: %d\n",number);
+     printf("\n\nCongratulations, you found it!  the number is %d and your total guesses are %d \n\n",guess,guess_counter);
      break;
   }
+  
+ 
 
   else{
     printf("\nINCORRECT Guess! Try Again");
     
+  }
+
+   if(guess>number){
+
+    printf("\n\nHINT : Your Guess is larger than number\n");
+    
+  }
+
+  else{
+    printf("\n\nHINT : Your Guess is smaller than number\n");
   }
 
 }
